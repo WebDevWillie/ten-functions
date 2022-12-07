@@ -60,3 +60,11 @@ function and (input1, input2) {
 function concat (input1, input2) {
     return "" + input1 + input2;
 }
+
+function isZero (input){
+    if(input===0){
+        return true;
+    } else{
+        return false;
+    }
+}
